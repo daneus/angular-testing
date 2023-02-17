@@ -1,6 +1,8 @@
 <div class="w-full h-44 shadow-xl flex flex-col">
   <div class="bg-azul h-16 rounded-t-lg flex justify-between p-4 gap-10">
-    <div class="self-center font-medium text-lg text-white">Productos</div>
+    <div class="self-center font-normal text-base text-white font-poppins">
+      Productos
+    </div>
     <div class="self-center flex flex-grow">
       <div class="text-gray-500 self-center py-2 bg-white px-4 rounded-l-full">
         <img
@@ -50,5 +52,34 @@
       </div>
     </div>
   </div>
-  <div class="bg-white flex-1 rounded-b-lg">LOWER PART</div>
+  <div
+    class="bg-white flex-1 rounded-b-lg flex p-4 justify-center items-center gap-4"
+  >
+    <select
+      class="container border-2 p-2 border-gray-200 rounded-md text-gray-400 text-sm font-poppins h-14 -mb-2"
+    >
+      <option value="presentacion" hidden>Presentación</option>
+    </select>
+    <fieldset
+      class="container border-2 border-gray-200 text-gray-400 text-xs font-poppins rounded-md p-2 h-16"
+    >
+      <legend class="ml-2">Precio ∗</legend>
+      <input class="text-black text-base" type="text" value="S/0" />
+    </fieldset>
+    <input
+      class="container text-sm font-poppins text-gray-400 border-2 border-gray-200 h-14 -mb-2 rounded-md p-2"
+      type="text"
+      value="Cantidad ∗"
+    />
+    <input
+      class="container text-sm font-poppins text-gray-400 border-2 border-gray-200 h-14 -mb-2 rounded-md p-2"
+      type="text"
+      value="Stock"
+    />
+    <button
+      class="container bg-morado p-2 px-4 text-white font-semibold w-fit whitespace-nowrap rounded-full shadow-md shadow-gray-400"
+    >
+      + Agregar
+    </button>
+  </div>
 </div>
