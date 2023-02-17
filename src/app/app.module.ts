@@ -4,9 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BarraBusquedaComponent } from './componentes/barra-busqueda/barra-busqueda.component';
 import { TablaItemsComponent } from './componentes/tabla-items/tabla-items.component';
+import { ComponentesBotonesTotalComponent } from './componentes-botones-total/componentes-botones-total.component';
 
 @NgModule({
-  declarations: [AppComponent, BarraBusquedaComponent, TablaItemsComponent],
+  declarations: [AppComponent, BarraBusquedaComponent, TablaItemsComponent, ComponentesBotonesTotalComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
