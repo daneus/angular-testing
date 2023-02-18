@@ -1,9 +1,12 @@
 <div class="bg-red-500 h-screen w-screen flex justify-center items-center">
-  <main class="flex flex-row h-5/6 w-5/6">
-    <div class="h-full w-2/3 bg-yellow-300 p-6 flex flex-col gap-4">
+  <main class="flex flex-row h-5/6">
+    <div class="h-full w-2/3 p-6 flex flex-col gap-4" id="gray-bg">
       <app-barra-busqueda class="w-full h-44"></app-barra-busqueda>
       <app-tabla-items class="h-full"></app-tabla-items>
+      <app-botones-total></app-botones-total>
     </div>
-    <div class="h-full flex-1 bg-teal-400"></div>
+    <div class="h-full flex-1 bg-teal-400 p-6">
+      <app-componente-derecha></app-componente-derecha>
+    </div>
   </main>
 </div>

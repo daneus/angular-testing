@@ -15,6 +15,7 @@ module.exports = {
         azul: "#6366F0",
         rosa: "#FF4181",
         verdeBG: "#F3F5EE",
+        verdeBG2: "#E4EEE6",
         rojoBG: "#FFECEC",
         morado: "#6D28DC",
       },

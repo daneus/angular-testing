@@ -1,0 +1,106 @@
+<div class="flex-col">
+  <div
+    class="flex justify-between border-2 p-4 rounded-md border-green-600 bg-verdeBG2"
+  >
+    <img
+      class="block pointer-events-none select-none"
+      src="assets/magnifying-glass-green.svg"
+      alt="Magnifying glass"
+      width="17"
+    />
+    <div class="font-poppins text-green-600 font-semibold">S/ 196.00</div>
+  </div>
+  <div class="flex flex-col bg-white rounded-md shadow-xl">
+    <div
+      class="bg-azul text-lg font-poppins p-3 font-medium text-white rounded-t-md"
+    >
+      Datos de venta
+    </div>
+    <div class="flex gap-3 flex-col p-3">
+      <div class="flex gap-3">
+        <fieldset
+          class="container border-2 border-gray-200 text-gray-400 text-xs font-poppins rounded-md p-2 bg-white"
+        >
+          <legend>Doc. Interno ∗</legend>
+          <select class="text-base w-full text-black">
+            <option value="factura" hidden>Factura</option>
+          </select>
+        </fieldset>
+        <fieldset
+          class="container border-2 border-gray-200 text-gray-400 text-xs font-poppins rounded-md p-2 bg-white"
+        >
+          <legend>Tipo de pago ∗</legend>
+          <select class="text-base w-full text-black">
+            <option value="contado" hidden>CONTADO</option>
+          </select>
+        </fieldset>
+      </div>
+      <div>
+        <select
+          class="text-base container border-2 border-gray-200 text-gray-400 font-poppins rounded-md p-2 bg-white"
+        >
+          <option value="cliente" hidden>Seleccione el cliente ∗</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col shadow-xl">
+    <div class="flex w-full bg-azul justify-between rounded-t-md">
+      <div class="text-lg font-poppins p-3 font-medium text-white">
+        Datos de venta
+      </div>
+      <div class="text-lg font-poppins p-3 font-medium text-white">S/</div>
+    </div>
+    <div class="bg-white p-3 flex flex-col gap-3 rounded-b-md">
+      <div>
+        <fieldset
+          class="container border-2 border-gray-200 text-gray-400 text-xs font-poppins rounded-md p-2 bg-white"
+        >
+          <legend>Forma de pago ∗</legend>
+          <select class="text-base w-full text-black">
+            <option value="factura" hidden>EFECTIVO</option>
+          </select>
+        </fieldset>
+      </div>
+      <div class="flex gap-3">
+        <fieldset
+          class="container border-2 border-gray-200 text-gray-400 text-xs font-poppins rounded-md p-2 bg-white"
+        >
+          <legend>Ingrese monto</legend>
+          <input
+            class="text-black text-base focus:outline-none"
+            type="text"
+            value="S/ 196"
+          />
+        </fieldset>
+        <div
+          class="whitespace-nowrap flex justify-center items-center font-semibold gap-1 text-lg font-poppins"
+        >
+          Vuelto:<span class="text-sm font-bold">S/ 0.00</span>
+        </div>
+      </div>
+      <div class="flex justify-between">
+        <button
+          class="font-poppins bg-morado text-white rounded-full py-2 px-4"
+        >
+          S/ 196
+        </button>
+        <button class="font-poppins bg-azul text-white rounded-full py-2 px-4">
+          S/ 50
+        </button>
+        <button class="font-poppins bg-azul text-white rounded-full py-2 px-4">
+          S/ 100
+        </button>
+        <button class="font-poppins bg-azul text-white rounded-full py-2 px-4">
+          S/ 200
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="flex w-full bg-azul justify-between rounded-md">
+    <div class="text-lg font-poppins p-3 font-medium text-white">
+      Datos de venta
+    </div>
+    <div class="text-lg font-poppins p-3 font-medium text-white">></div>
+  </div>
+</div>
